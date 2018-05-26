@@ -13,6 +13,7 @@ namespace ClassicalDesignPatterns
             var computer = new ConcreteComputerFactory().GetComputer();
 
             Console.WriteLine("Hello World!");
+            Console.WriteLine("bla blub");
         }
     }
 }
