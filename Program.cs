@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace MichaWresche2
+namespace ClassicalDesignPatterns
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // Singleton
+            var simpleSingleton = SimpleSingleton.Instance;
+
+            // Factory Method
+            var computer = new ConcreteComputerFactory().GetComputer();
+
             Console.WriteLine("Hello World!");
+            Console.WriteLine("bla blub");
         }
     }
 }
